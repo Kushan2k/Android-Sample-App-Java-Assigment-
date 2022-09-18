@@ -5,4 +5,18 @@
     <string name="doctor_btn">Doctor</string>
     <string name="attendent_btn">Attendant</string>
     <string name="employee_btn">Employee</string>
+
+    <string name="cat_label">Catogory Type</string>
+    <string name="txt_place">ID</string>
+
+    <string name="btn_edit">Delete</string>
+    <string name="btn_detail">Details</string>
+    <string name="btn_add">ADD</string>
+
+    <string name="detail_name">Name</string>
+    <string name="detail_age">Age</string>
+    <string name="detail_sp">Specialize for</string>
+    <string name="detail_deatils">Details</string>
+
+    <string name="add_salary">Add Salary</string>
 </resources>
