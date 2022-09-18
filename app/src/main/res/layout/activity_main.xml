@@ -6,23 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        android:padding="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="70dp" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="115dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            tools:srcCompat="@tools:sample/avatars" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello "
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="218dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:layout_margin="50dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="@string/doctor_btn" />
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:layout_margin="50dp"
+            android:gravity="center"
+            android:text="@string/attendent_btn" />
 
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/employee_btn" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

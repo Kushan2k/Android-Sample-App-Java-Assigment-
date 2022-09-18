@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">Learn101</string>
+    <string name="app_name">Health Care</string>
     <string name="head">Appoinment</string>
+
+    <string name="doctor_btn">Doctor</string>
+    <string name="attendent_btn">Attendant</string>
+    <string name="employee_btn">Employee</string>
 </resources>
