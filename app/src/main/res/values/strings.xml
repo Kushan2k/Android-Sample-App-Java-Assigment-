@@ -6,7 +6,7 @@
     <string name="attendent_btn">Attendant</string>
     <string name="employee_btn">Employee</string>
 
-    <string name="cat_label">Catogory Type</string>
+    <string name="cat_label">Employees</string>
     <string name="txt_place">ID</string>
 
     <string name="btn_edit">Delete</string>
@@ -19,4 +19,11 @@
     <string name="detail_deatils">Details</string>
 
     <string name="add_salary">Add Salary</string>
+
+    <string name="add_customer">Add Customer</string>
+
+    <string name="salary">salary</string>
+    <string name="date">Date</string>
+
+
 </resources>

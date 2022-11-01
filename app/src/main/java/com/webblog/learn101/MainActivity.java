@@ -5,6 +5,7 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.media.FaceDetector;
 import android.media.Image;
@@ -24,5 +25,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+    }
+
+    public void addDoctor(View v){
+        Intent w=new Intent(this,AddCustomer.class);
+        w.putExtra("name","Add Doctor");
+        startActivity(w);
+    }
+
+    public void AddAttendent(View v){
+        Intent w=new Intent(this,AddCustomer.class);
+        w.putExtra("name","Add Attendent");
+        startActivity(w);
+    }
+
+    public void AddEmployee(View v){
+        Intent w=new Intent(this,AddCustomer.class);
+        w.putExtra("name","Add Employee");
+        startActivity(w);
+    }
+
+    public void viewAll(View v){
+        Intent i=new Intent(this,Catagory.class);
+        startActivity(i);
     }
 }

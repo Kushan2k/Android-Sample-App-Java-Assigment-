@@ -34,7 +34,10 @@
             android:layout_height="80dp"
             android:layout_margin="50dp"
             android:layout_marginTop="100dp"
+            android:backgroundTint="#2196F3"
+            android:backgroundTintMode="add"
             android:gravity="center"
+            android:onClick="addDoctor"
             android:text="@string/doctor_btn" />
 
         <Button
@@ -42,7 +45,10 @@
             android:layout_width="240dp"
             android:layout_height="80dp"
             android:layout_margin="50dp"
+            android:backgroundTint="#2196F3"
+            android:backgroundTintMode="add"
             android:gravity="center"
+            android:onClick="AddAttendent"
             android:text="@string/attendent_btn" />
 
         <Button
@@ -51,7 +57,17 @@
             android:layout_height="80dp"
             android:layout_marginHorizontal="50dp"
             android:layout_marginTop="50dp"
+            android:backgroundTint="#2196F3"
+            android:backgroundTintMode="add"
             android:gravity="center"
+            android:onClick="AddEmployee"
             android:text="@string/employee_btn" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewAll"
+            android:text="View" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
