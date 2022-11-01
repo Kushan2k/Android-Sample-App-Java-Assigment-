@@ -18,14 +18,14 @@ we use SqLite as the database.
 ## Sample Images
 
 <div align='center'>
-
+<!--
 <img src='https://drive.google.com/uc?export=view&id=1z1pcGC3_v9ceTM8i-5A4NX6_JHRVPljY' width='70%' align='center' height='auto'>  
 
 <img src='https://drive.google.com/uc?export=view&id=1z-rqMaWYtLvGRNwBayhrENHA8dLAmA5p' width='70%' align='center' height='auto'>  
 
 <img src='https://drive.google.com/uc?export=view&id=1yz1HjlhsMWABvCHpwed35EF4hOQ1Rnfm' width='70%' align='center' height='auto'>  
 
-<img src='https://drive.google.com/uc?export=view&id=1ywoEfJx7lXMy_hDB6wO8T0iBnRvaMmPv' width='70%' align='center' height='auto'>  
+<img src='https://drive.google.com/uc?export=view&id=1ywoEfJx7lXMy_hDB6wO8T0iBnRvaMmPv' width='70%' align='center' height='auto'>  -->
 
 
 </div>
